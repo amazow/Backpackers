@@ -13,6 +13,7 @@ import { Agra } from "../Pages/Agra";
 import { Register } from "../Pages/Register.js";
 import { Bookingscreen } from "../Hostelrooms/Bookingscreen";
 import { Signup } from "../Userauth/Signup";
+import { Branding } from "../Bala/Branding";
 function Routesmain (){
   
     return(
@@ -23,6 +24,7 @@ function Routesmain (){
         <Routes>
         <Route exact path="/" element={ <Home/> } />
         <Route exact path="/home" element={ <Home/> } />
+        <Route exact path="/Branding" element={ <Branding/> } />
           {/* <Route exact path="/destinations" element={<Destinations />} />
           <Route exact path="/hostels" element={<Hostels />} />
           <Route exact path="/workations" element={<Workations />} />
@@ -33,8 +35,8 @@ function Routesmain (){
           <Route exact path="/register" element={<Register />} />
           <Route path="/book/:roomid" element={<Bookingscreen />} />
           <Route exact path="/login" element={<Login />} />
-          <Route exact path="/signup" element={<Signup />} /> */}
-         
+          <Route exact path="/signup" element={<Signup />} />
+          */}
 
 
         </Routes>
